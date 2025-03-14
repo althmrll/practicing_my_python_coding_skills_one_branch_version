@@ -3,6 +3,8 @@ global total
  
 #Ask user to input first number
 counter= 0
+total= 0
+ 
 print("inputted number:", counter)
 first_number= int(input("Enter number:"))
 counter= counter+1
