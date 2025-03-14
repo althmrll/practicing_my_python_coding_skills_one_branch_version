@@ -4,6 +4,6 @@ second_number= int(input("Enter first number:"))
 
 #Determine if the two numbers are equal. Print "Equal" if they are equal.
 if first_number==second_number:
-    print("Equal")
+    print("\nEqual")
 else:
-    print("Not Equal")
+    print("\nNot Equal")
