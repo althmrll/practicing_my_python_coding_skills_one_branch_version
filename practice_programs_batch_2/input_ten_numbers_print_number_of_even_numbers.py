@@ -2,6 +2,9 @@ global counter
 global even
  
 #ask user to input ten numbers
+counter=0
+even= 0
+ 
 while counter!=10:
     print("counter:", counter)
     input_number= int(input("Enter number:"))
@@ -12,4 +15,3 @@ while counter!=10:
         even= even+1
  
 #print the number of even numbers
-print ("there are", even, "even numbers in the numbers you inputted")
