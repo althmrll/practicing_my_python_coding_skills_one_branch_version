@@ -5,7 +5,7 @@ counter = 0
 odd = 0
  
 #Ask user ot input ten numbers
-while number != 10:
+while counter != 10:
     input_number = int(input("Enter number:"))
     counter = counter + 1
  
