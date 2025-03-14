@@ -1,3 +1,6 @@
 #Ask user to input two numbers
- #Find their remainder
- # Print it
+first_number= int(input("Enter first number:"))
+second_number= int(input("Enter second number:"))
+ 
+#Find their remainder
+# Print it
