@@ -8,8 +8,9 @@ counter = 0
 result = 0
  
 while counter != 10:
-    print ("numbers inputted:", counter, "\n")
+    print ("numbers inputted:", counter)
     input_number = int(input("Enter number:"))
+    print("")
     result = result + input_number
     counter = counter + 1
 
