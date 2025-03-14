@@ -5,5 +5,5 @@ second_number= int(input("Enter second number:"))
 #Find their remainder
 remainder= first_number%second_number
  
- # Print it
- print("remainder:", remainder)
+# Print it
+print("remainder:", remainder)
