@@ -8,10 +8,10 @@ counter = 0
 result = 0
  
 while counter != 10:
-    print ("numbers inputted:", counter)
+    print ("numbers inputted:", counter, "\n")
     input_number = int(input("Enter number:"))
     result = result + input_number
     counter = counter + 1
 
 #Print sum of the ten numbers
-print(result)
+print("sum:", result)
