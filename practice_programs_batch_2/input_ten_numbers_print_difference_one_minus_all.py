@@ -12,7 +12,7 @@ while counter!=10:
     print("inputted number:", counter)
     other_numbers=int(input("Enter another number:"))
     counter= counter+1 
-    total=other_numbers+1 #Find total of the other 9 numbers
+total=total+other_numbers #Find total of the other 9 numbers
  
 #subtract sum of the 9 numbers to the first number
 difference= first_number-total
