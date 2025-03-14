@@ -6,10 +6,11 @@ counter = 0
 while counter!=10:
     number_input=int(input("Enter number:"))
     counter=counter+1
-    inputted_number.append(number_input)
-    unique_numbers=set(inputted_number)
-
-    if len(unique_numbers)!=len(inputted_number): #Determine whether user inputted a number more than one time
-        inputted_number.remove()
+    
+    if len(current_numbers)!=len(inputted_number): #Determine whether user inputted a number more than one time
+        inputted_number.remove(number_input)
+    else:
+        inputted_number.append(number_input)
+        current_numbers=set(inputted_number)
  
 print(inputted_number) #print numbers without duplicate
