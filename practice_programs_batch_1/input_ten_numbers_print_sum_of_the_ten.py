@@ -10,7 +10,7 @@ result = 0
 while counter != 10:
     input_number = int(input("Enter number:"))
     result = result + input_number
-    count = count + 1
+    counter = counter + 1
 
 #Print sum of the ten numbers
 print(result)
