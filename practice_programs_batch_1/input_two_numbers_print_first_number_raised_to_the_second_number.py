@@ -6,3 +6,4 @@ second_number = int(input("Enter second number:"))
 result = first_number^second_number
 
 #Print result
+print("result:", result)
