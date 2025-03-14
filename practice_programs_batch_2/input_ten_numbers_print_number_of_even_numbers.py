@@ -1,3 +1,5 @@
 #ask user to input ten numbers
- #determine whihc are odd and even
- #print the number of even numbers
+input_number= int(input("Enter number:"))
+ 
+#determine which are odd and even
+#print the number of even numbers
