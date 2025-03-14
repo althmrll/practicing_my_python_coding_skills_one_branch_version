@@ -6,3 +6,4 @@ second_number= int(input("Enter second number:"))
 product= first_number*second_number
 
 #Print their product
+print (product)
