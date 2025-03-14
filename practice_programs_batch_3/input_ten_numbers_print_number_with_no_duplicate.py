@@ -1,6 +1,6 @@
 global counter
 inputted_number=[]
-
+counter = 0
 #Ask user to input ten numbers
 while counter!=10:
     number_input=int(input("Enter number:"))
