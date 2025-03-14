@@ -14,3 +14,4 @@ while number != 10:
         odd = odd + 1
 
 #Print how many are odd
+print("There are", odd, "odd numbers in the ten numbers you inputted.")
