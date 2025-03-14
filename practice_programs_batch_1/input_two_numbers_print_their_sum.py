@@ -6,4 +6,4 @@ second_number = int(input("Enter second number:"))
 sum = first_number + second_number
 
 #Print sum
-print(sum)
+print("sum:", sum)
