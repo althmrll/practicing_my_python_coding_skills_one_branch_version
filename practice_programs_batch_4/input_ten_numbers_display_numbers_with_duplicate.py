@@ -1,16 +1,17 @@
 counter= 0
 inputted_numbers= []
+number_with_dupes=[]
 
 #ask user to input ten numbers
 while counter!=10:
-    print("numbers inputted:", counter)
+    print("\nnumbers inputted:", counter)
     number_input= int(input("Enter number:"))
-    counter=counter+1
     inputted_numbers.append(number_input)
+    counter=counter+1
  
 #determine which inputs have duplicates
 if inputted_numbers.count(number_input)==1:
-    inputted_numbers.remove(number_input)
+    number_with_dupes.append(number_input)
  
 #print all numbers that have duplicates
-print(inputted_numbers)
+print(number_with_dupes)
