@@ -7,7 +7,7 @@ while True: #determine whether input is invalid
         inputted_number.append(number)
         filtered_list=set(inputted_number)
  
-        if number!=filtered_list:
+        if len(inputted_number)==len(filtered_list):
             print("Unique")
         else:
             print("Duplicate")
