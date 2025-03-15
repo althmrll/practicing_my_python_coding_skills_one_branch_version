@@ -12,4 +12,4 @@ while True:
  
     except ValueError:
         average= total/count #Divide the total of numbers to the count of numbers inputted
-        print(average) #Print their average
+        print(round(average,2)) #Print their average
