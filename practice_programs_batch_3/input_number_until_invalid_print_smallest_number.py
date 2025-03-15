@@ -11,5 +11,5 @@ while True: #ensures the program continuously asks for input that stops when inp
     except ValueError:
         #print smallest number
         inputted_number.sort() #sorts list in ascending order
-        print(inputted_number[0]) #prints first item on the list
+        print("the smallest number you inputted is", inputted_number[0]) #prints first item on the list
         break
