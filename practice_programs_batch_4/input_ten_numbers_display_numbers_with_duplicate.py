@@ -15,4 +15,4 @@ while counter!=10:
  
 #print all numbers that have duplicates
 number_with_dupes=set(dupes)
-print(number_with_dupes)
+print("\n numbers with duplicates:", number_with_dupes)
