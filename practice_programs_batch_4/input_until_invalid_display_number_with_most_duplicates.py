@@ -1,6 +1,5 @@
 inputted_numbers=[]
-highest_duplicate_count=0
-
+most_duplicated=0
 #Ask user to input number until invalid number.
 while True:
     try:
@@ -9,11 +8,11 @@ while True:
  
  #Determine which numbers are duplicates and the highets duplicate count
         inputted_numbers.count (number_input)
-        if inputted_numbers.count (number_input)>highest_duplicate_count:
-            highest_duplicate_count= number_input
+        if inputted_numbers.count(number_input)>most_duplicated:
+             most_duplicated= number_input
         else:
             continue
 
 #Print number with the most duplicates.
     except ValueError:
-        print (highest_duplicate_count)
+        print ("The most duplicated number is", most_duplicated)
