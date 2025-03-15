@@ -5,7 +5,8 @@ while True:
     try:
         number_input= int(input("Enter number:"))
         numbers_inputted.append(number_input)
-    except ValueError:
-        print(numbers_inputted)
  
 #Print highest number
+    except ValueError:
+        numbers_inputted.sort(reverse=True)
+        print(numbers_inputted[0]) #prints highest number
