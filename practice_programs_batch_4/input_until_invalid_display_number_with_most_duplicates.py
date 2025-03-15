@@ -15,3 +15,5 @@ while True:
             continue
 
 #Print number with the most duplicates.
+    except ValueError:
+        print (highest_duplicate_count)
