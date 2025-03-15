@@ -9,4 +9,8 @@ while counter!=10:
     inputted_numbers.append(number_input)
  
 #determine which inputs have duplicates
+if inputted_numbers.count(number_input)==1:
+    inputted_numbers.remove(number_input)
+ 
 #print all numbers that have duplicates
+print(inputted_numbers)
