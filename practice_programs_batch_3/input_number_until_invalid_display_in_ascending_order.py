@@ -7,6 +7,5 @@ while True: #determines whether input is invalid
         inputted_number.append(number)
      
     except ValueError:
-        arranged_list= inputted_number.sort()
-        print(arranged_list) #sort all inputted numbers in ascending order
+        inputted_number.sort()
         break
